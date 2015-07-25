@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-f838caeec46baa440390ee63763d3eea83b24a93.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/classes-4aa008c35c60e73e2b852d6127fc88b0170bd87a.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/pre-dexed/debug/classes-5edf6c861e33fc2fb149832f7a14f8d32ff4eb27.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-14c40a6a3bff9c9d33e07a0207f4f9920f8eb4d7.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-c7ebc1db6b4e50e40f33a6bf507e034112e918ce.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/classes-1b49bdb0c22d5ed89c7befa92299e7d9cfdb25b2.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/app/build/intermediates/pre-dexed/debug/classes-5ad471e85fcd094cacd1c5c5792a2211ebd05364.jar" />
+    </item>
+
+</items>

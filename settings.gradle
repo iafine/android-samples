@@ -1,1 +1,1 @@
-include ':baseadapter_sample'
+include ':baseadapter_sample', 'async_sample'

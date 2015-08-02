@@ -4,8 +4,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.administrator.async_sample.R;
@@ -17,15 +19,31 @@ import java.util.List;
 /**
  * Created by Administrator on 2015/7/30.
  */
-public class NewsAdapter extends BaseAdapter {
+public class NewsAdapter extends BaseAdapter implements AbsListView.OnScrollListener{
 
     private List<News> newsList ;
 
     private LayoutInflater inflater ;
 
-    public NewsAdapter(Context context, List<News> mDatas){
+    private ImageLoader mImageLoader ;
+
+    private int mStart ;
+
+    private int mEnd ;
+
+    public static String[] URLs ;
+
+    public NewsAdapter(Context context, List<News> mDatas, ListView listView){
         newsList = mDatas ;
         inflater = LayoutInflater.from(context) ;
+        mImageLoader = new ImageLoader(listView) ;
+
+        URLs = new String[mDatas.size()] ;
+        for (int i = 0; i < URLs.length; i++) {
+            URLs[i] = mDatas.get(i).getIconUrl() ;
+        }
+        //一定要注册事件
+        listView.setOnScrollListener(this);
     }
     @Override
     public int getCount() {
@@ -67,10 +85,30 @@ public class NewsAdapter extends BaseAdapter {
         */
 
         //使用AsyncTask方式加载图片
-        new ImageLoader().showImageViewByAsyncTask(viewHolder.iconView, url);
+        mImageLoader.showImageViewByAsyncTask(viewHolder.iconView, url);
         viewHolder.titleView.setText(newsList.get(position).getTitle());
         viewHolder.contentView.setText(newsList.get(position).getContent());
         return convertView;
+    }
+
+    @Override
+    public void onScrollStateChanged(AbsListView view, int scrollState) {
+        if(scrollState == SCROLL_STATE_IDLE){
+            //当滑动状态为停止时，加载可见项
+            mImageLoader.loadImages(mStart, mEnd);
+        }else{
+            //当处在滑动过程中时，停止任务的下载
+            mImageLoader.cancelAllTask();
+
+        }
+    }
+
+    @Override
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+        mStart = firstVisibleItem ;
+        mEnd = mStart + visibleItemCount ;
+
+
     }
 
     class ViewHolder{

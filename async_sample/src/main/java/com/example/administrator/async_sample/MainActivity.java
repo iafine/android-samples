@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
         @Override
         protected void onPostExecute(List<News> newses) {
             super.onPostExecute(newses);
-            NewsAdapter adapter = new NewsAdapter(MainActivity.this, newses) ;
+            NewsAdapter adapter = new NewsAdapter(MainActivity.this, newses, listView) ;
             listView.setAdapter(adapter);
         }
     }

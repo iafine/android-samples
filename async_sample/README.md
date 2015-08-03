@@ -4,5 +4,5 @@
 例子是关于实现一个幕课网课单的ListView，使用到了AsyncTask，并且讲解了各种ListView优化问题，讲的不错！
 
 ###import项目
-打开Android Studio，选择import mudule，下载此例子，倒入即可。
+打开Android Studio，选择import mudule，q下载此例子，倒入即可。
 

@@ -33,6 +33,8 @@ public class NewsAdapter extends BaseAdapter implements AbsListView.OnScrollList
 
     public static String[] URLs ;
 
+    private boolean mFlag = true;// 判断是否是第一次启动listview
+
     public NewsAdapter(Context context, List<News> mDatas, ListView listView){
         newsList = mDatas ;
         inflater = LayoutInflater.from(context) ;
@@ -107,6 +109,12 @@ public class NewsAdapter extends BaseAdapter implements AbsListView.OnScrollList
     public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
         mStart = firstVisibleItem ;
         mEnd = mStart + visibleItemCount ;
+
+        //如果是第一次启动listview
+        if(mFlag && visibleItemCount > 0){
+            mImageLoader.loadImages(mStart, mEnd);
+            mFlag = false ;
+        }
 
 
     }

@@ -1,4 +1,4 @@
-###[微信6.0界面设计](https://github.com/castial/android-samples/tree/master/weichat)
+###[微信6.0界面设计](https://github.com/castial/android-samples/tree/master/wechat)
 >学习微信的设计，你会发现一些不一样的细节。
 
 说实话，微信一直是应该学习的模楷，很多方面都体现了Android开发的最高水平，既然我们去不了腾讯，那就学习下微信吧。

@@ -2,53 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/classes-4aa008c35c60e73e2b852d6127fc88b0170bd87a.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-f838caeec46baa440390ee63763d3eea83b24a93.jar" />
     </item>
     <item
-        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-16287f6655aed9da3d3396371e2d54a5a8c11d04.jar" />
-    </item>
-    <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-22a2470cdf4ac03ef75366ac6035d315f63444f9.jar" />
-    </item>
-    <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/pre-dexed/debug/classes-17c503754b533c5d66772d85b3d78798de99b7c1.jar" />
-    </item>
-    <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/async_sample/build/intermediates/pre-dexed/debug/classes-e41ce1a4b2f23510d46d0debc1043e3e7e201a5f.jar" />
-    </item>
-    <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-c7ebc1db6b4e50e40f33a6bf507e034112e918ce.jar" />
-    </item>
-    <item
-        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/baseadapter_sample/build/intermediates/pre-dexed/debug/classes-1b49bdb0c22d5ed89c7befa92299e7d9cfdb25b2.jar" />
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/pre-dexed/debug/classes-47a03f9a0509b4bb078624bba4b3702467a2bb43.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-d100852dbce2b118aab7723ca1b20f03721bc4e7.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/apple/AndroidStudioProjects/AndroidSamples/wechat/build/intermediates/pre-dexed/debug/classes-0d369af1d17d72ffae4a60463e062031dd1eb126.jar" />
     </item>
 
 </items>

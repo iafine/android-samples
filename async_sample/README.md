@@ -12,4 +12,9 @@ Android测试版本 --> Android 4.4.4
 打开Android Studio，直接下载此项目，导入即可。  
 
 另外，如果只需要看个别module的代码，请下载module，在Android Studio中选择import module即可。
-
+###知识点总结
+* AsyncTask和多线程的用法
+* ListView的用法
+* JSON解析
+* ListView加载问题
+* ListView优化

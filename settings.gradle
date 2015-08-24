@@ -1,1 +1,1 @@
-include ':wechat', 'async_sample'
+include ':wechat', ':viewpager', 'async_sample'

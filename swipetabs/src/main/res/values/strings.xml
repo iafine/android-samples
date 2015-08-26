@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="action_search">搜索</string>
+    <string name="action_add">添加</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_delete">删除</string>
+    <string name="action_share">分享</string>
+    <string name="fragment_text">这是第%1d个Fragment</string>
+</resources>

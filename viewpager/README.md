@@ -1,7 +1,7 @@
-###[ViewPager实现动画切换](https://github.com/castial/android-samples/tree/master/viewpager)
->基本每个app都会用到这个。
+###[利用viewpager制作引导页](https://github.com/castial/android-samples/tree/master/viewpager)
+>利用viewpager制作app引导页，每个app都可以用到。
 
-依旧是ViewPager，依旧是很炫的功能展示，学习资料来源于幕课网。
+难度指数低，但用途广泛。
 ###开发环境
 IDE --> Android Studio 1.2  
 Android测试版本 --> Android 4.4.4  

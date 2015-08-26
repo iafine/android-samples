@@ -1,1 +1,1 @@
-include ':wechat', ':viewpager', 'async_sample'
+include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', 'async_sample'

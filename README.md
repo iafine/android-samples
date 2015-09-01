@@ -30,3 +30,7 @@ SharedPreferences的基本操作，不能不会，练练手！
 >ActionBar的基本操作，差不多都用到了。
 
 另外，利用ActionBar的tab导航，加上ViewPager和Fragment，实现页面滑动效果。
+###[Android照片墙](https://github.com/castial/android-samples/tree/master/gallery)
+>Android照片墙实现，功能使用
+
+Android照片墙，不仅仅考虑到用户体验，而且还考验缓存技巧，是个非常棒的学习案例。

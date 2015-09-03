@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', ':refreshui', 'async_sample'
+=======
+include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', 'async_sample'
+>>>>>>> 1057887a4056d9a9e8b102223e704b015c08fd6e

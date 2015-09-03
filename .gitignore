@@ -1,6 +1,15 @@
 .gradle
+<<<<<<< HEAD
 .idea
 build
 local.properties
 /captures
 *.iml
+=======
+local.properties
+.DS_Store
+build
+.idea
+*iml
+/captures
+>>>>>>> 1057887a4056d9a9e8b102223e704b015c08fd6e

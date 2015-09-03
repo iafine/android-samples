@@ -17,9 +17,6 @@ Android测试版本 --> Android 4.4.4
 ###[微信6.0界面设计](https://github.com/castial/android-samples/tree/master/wechat)
 >学习微信的设计，你会发现一些不一样的细节。
 
-<<<<<<< HEAD
-说实话，微信一直是应该学习的模楷，很多方面都体现了Android开发的最高水平，既然我们去不了腾讯，那就学习下微信吧。
-=======
 说实话，微信一直是应该学习的模楷，很多方面都体现了Android开发的最高水平，既然我们去不了腾讯，那就学习下微信吧。
 ###[利用ViewPager制作引导页](https://github.com/castial/android-samples/tree/master/viewpager)
 >难度指数低，但用途广泛。
@@ -37,4 +34,7 @@ SharedPreferences的基本操作，不能不会，练练手！
 >Android照片墙实现，功能使用
 
 Android照片墙，不仅仅考虑到用户体验，而且还考验缓存技巧，是个非常棒的学习案例。
->>>>>>> 1057887a4056d9a9e8b102223e704b015c08fd6e
+###[子线程刷新UI](https://github.com/castial/android-samples/tree/master/refreshui)
+>多线程的基本用法，利用子线程刷新UI。
+
+Android中多线程的用法，利用异步消息机制和AsyncTask实现。

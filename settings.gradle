@@ -1,0 +1,1 @@
+include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', ':refreshui', 'async_sample'

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 .gradle
 .idea
 build
 local.properties
 /captures
 *.iml
-=======
-/build
->>>>>>> 1057887a4056d9a9e8b102223e704b015c08fd6e

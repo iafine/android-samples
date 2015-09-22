@@ -1,2 +1,2 @@
-include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', ':refreshui', ':powerfuladapter', 'async_sample'
+include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', ':refreshui', ':powerfuladapter', ':maptest', 'async_sample'
 include ':wechat', ':viewpager', ':sharedpreferences', ':swipetabs', ':gallery', 'async_sample'

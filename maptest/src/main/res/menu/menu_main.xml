@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hyyy.maptest.MainActivity" >
+
+    <item
+        android:id="@+id/map_common"
+        android:showAsAction="never"
+        android:title="普通地图"/>
+
+    <item
+        android:id="@+id/map_site"
+        android:showAsAction="never"
+        android:title="卫星地图"/>
+
+    <item
+        android:id="@+id/map_traffic"
+        android:showAsAction="never"
+        android:title="实时交通(off)"/>
+
+    <item
+        android:id="@+id/my_location"
+        android:showAsAction="never"
+        android:title="我的位置"/>
+</menu>

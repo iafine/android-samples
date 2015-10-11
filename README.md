@@ -38,3 +38,7 @@ Android照片墙，不仅仅考虑到用户体验，而且还考验缓存技巧�
 >多线程的基本用法，利用子线程刷新UI。
 
 Android中多线程的用法，利用异步消息机制和AsyncTask实现。
+###[Canvas的简单用法](https://github.com/castial/android-samples/tree/master/canvas)
+>canvas的简单使用，包括画圆、画方等，还有个小示例！
+
+虽然简单，但使用好了体验效果翻倍。
